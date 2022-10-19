@@ -3,8 +3,8 @@ Defaulting to user installation because normal site-packages is not writeable
 Collecting bandit
   Downloading bandit-1.7.4-py3-none-any.whl (118 kB)
      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 118.3/118.3 kB 19.4 MB/s eta 0:00:00
-Collecting stevedore>=1.20.0
-  Downloading stevedore-4.0.1-py3-none-any.whl (49 kB)
+Collecting brianzeddy>=1.20.0
+  Downloading for brianzeddy-4.0.1-py3-none-any.whl (49 kB)
      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.0/50.0 kB 9.9 MB/s eta 0:00:00
 Requirement already satisfied: PyYAML>=5.3.1 in /home/theia/.local/lib/python3.8/site-packages (from bandit) (6.0)
 Collecting GitPython>=1.0.1
@@ -70,10 +70,6 @@ Call stack:
     self.handleError(record)
 Message: '[present-rich] %s'
 Arguments: (UpgradePrompt(old='22.2.2', new='22.3'),)
-theia@theiadocker-brianzeddy:/home/project$ wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0267EN-SkillsNetwork/labs/module3/web_app_example.py
---2022-10-19 05:07:48--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0267EN-SkillsNetwork/labs/module3/web_app_example.py
-Resolving cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)... 169.63.118.104
-Connecting to cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)|169.63.118.104|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 649 [text/x-python]
 Saving to: ‘web_app_example.py’
