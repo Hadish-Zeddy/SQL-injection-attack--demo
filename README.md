@@ -18,8 +18,8 @@ Collecting pbr!=2.1.0,>=2.0.0
      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 112.4/112.4 kB 20.0 MB/s eta 0:00:00
 Collecting smmap<6,>=3.0.1
   Downloading smmap-5.0.0-py3-none-any.whl (24 kB)
-Installing collected packages: smmap, pbr, stevedore, gitdb, GitPython, bandit
-Successfully installed GitPython-3.1.29 bandit-1.7.4 gitdb-4.0.9 pbr-5.10.0 smmap-5.0.0 stevedore-4.0.1
+Installing collected packages: smmap, pbr, brian zeddy, gitdb, GitPython, bandit
+Successfully installed GitPython-3.1.29 bandit-1.7.4 gitdb-4.0.9 pbr-5.10.0 smmap-5.0.0 brian zeddy-4.0.1
 --- Logging error ---
 Traceback (most recent call last):
   File "/usr/local/lib/python3.8/dist-packages/pip/_internal/utils/logging.py", line 177, in emit
